@@ -7,7 +7,7 @@ const saltRounds = 10;
 
 exports.register = function (req, res) {
     res.render('register', {
-            title: 'Demoing PassportJS',
+            title: 'Security III. Authentication Middleware',
             subtitle: 'Inspired by Traversy'
     });
 };
@@ -75,7 +75,7 @@ exports.postRegister = function (req, res) {
 
 exports.login = function (req, res) {
     res.render('login', {
-        title: 'Demoing PassportJS',
+        title: 'Security III. Authentication Middleware',
         subtitle: 'Inspired by Traversy'
     });
 };
