@@ -48,3 +48,44 @@ h2 {
   color: #202020;
   padding-bottom: 20px;
 }
+.reslog {
+  display: block;
+  text-align: center;
+}
+.reslog a {
+  display: block;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #202020;
+}
+label {
+  /* Other styling... */
+  font-weight: 600;
+  text-align: right;
+  clear: both;
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 5px;
+  width: 70%;
+}
+input, textarea {
+  /* Other styling... */
+  text-align: left;
+  float: right;
+  width: 80%;
+  margin-right: 15px;
+  margin-bottom: 5px;
+}
+input[type='submit'] {
+  background-color: #202020;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin: 5px 0px;
+  cursor: pointer;
+  width: 50%;
+  margin-right: 15px;
+  margin-bottom: 5px;
+  text-align: center;
+}

@@ -7,8 +7,15 @@ const saltRounds = 10;
 
 exports.register = function (req, res) {
     res.render('register', {
-            title: 'Security III. Authentication Middleware',
-            subtitle: 'Inspired by Traversy'
+        title: 'Security III. Authentication Middleware',
+        subtitle: 'Inspired by Traversy'
+    });
+};
+
+exports.open = function (req, res) {
+    res.render('open', {
+        title: 'Security III. Authentication Middleware',
+        subtitle: 'Everyone can see this page'
     });
 };
 

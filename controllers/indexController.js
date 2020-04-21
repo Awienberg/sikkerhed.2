@@ -12,3 +12,11 @@ exports.dashboard = function (req,res) {
         user: req.user
     });
 };
+
+exports.locked = function (req,res) {
+    res.render('locked', {
+        title: 'Security III. Authentication Middleware',
+        subtitle: 'Only Authenticated users can see this page',
+        user: req.user
+    });
+};

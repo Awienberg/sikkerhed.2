@@ -15,13 +15,17 @@ html
             a(href="/") Home
           if user
             li
-              a(href="/dashboard") Insiders
+              a(href="/dashboard") Dashboard
             li
+              a(href="/locked") Locked
+            li.reslog
               a(href="/users/logout") Logout
           if !user
             li
+              a(href="/users/open") Open
+            li.reslog
               a(href="/users/register") Register
-            li
+            li.reslog
               a(href="/users/login") Login
     body
       .main
