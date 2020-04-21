@@ -15,7 +15,7 @@ exports.register = function (req, res) {
 exports.open = function (req, res) {
     res.render('open', {
         title: 'Security III. Authentication Middleware',
-        subtitle: 'Everyone can see this page'
+        subtitle: 'Everyone can see this page',
     });
 };
 

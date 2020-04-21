@@ -59,7 +59,6 @@ h2 {
   background-color: #202020;
 }
 label {
-  /* Other styling... */
   font-weight: 600;
   text-align: right;
   clear: both;
@@ -69,7 +68,6 @@ label {
   width: 70%;
 }
 input, textarea {
-  /* Other styling... */
   text-align: left;
   float: right;
   width: 80%;
